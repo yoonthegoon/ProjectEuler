@@ -21,3 +21,4 @@ func isPalindrome(n int) bool {
     }
     return reversed == n
 }
+
