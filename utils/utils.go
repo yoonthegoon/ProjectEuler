@@ -39,10 +39,19 @@ func PrimeSieve(limit int) []int {
     return primes
 }
 
-func ReverseIntSlice(slice []int) []int {
+func ReverseInts(nums []int) []int {
     var reversedSlice []int
-    for i := len(slice) - 1; i >= 0; i-- {
-        reversedSlice = append(reversedSlice, slice[i])
+    for i := len(nums) - 1; i >= 0; i-- {
+        reversedSlice = append(reversedSlice, nums[i])
     }
     return reversedSlice
 }
+
+func SumInts(nums []int) int {
+    sum := 0
+    for _, num := range nums {
+        sum += num
+    }
+    return sum
+}
+
