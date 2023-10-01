@@ -1,5 +1,16 @@
 package utils 
 
+func Divisors(n int) []int {
+    var divisors []int
+    for i := 1; i * i <= n; i++ {
+        if n % i == 0 {
+            divisors = append(divisors, i)
+            divisors = append(divisors, n / i)
+        }
+    }
+    return divisors
+}
+
 func IsPrime(n int) bool {
     if n < 2 {
         return false
