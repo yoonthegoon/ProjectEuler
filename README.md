@@ -14,6 +14,6 @@ go run problems/problem####/main.go
 
 ## Incomplete problems
 
-* 5
+* [5](/problems/problem0005/main.go)
 
 
