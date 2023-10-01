@@ -16,6 +16,6 @@ replacing 0001 with the number of the problem you'd like to run padding with 0s 
 
 ## Incomplete problems
 
-* [5](/problems/problem0005/main.go)
-
+* [5](/problems/problem0005/main.go) [problem](https://projecteuler.net/problem=5)
+* [21](/problems/problem0021/main.go) [problem](https://projecteuler.net/problem=21)
 
