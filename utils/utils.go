@@ -23,6 +23,16 @@ func IsPrime(n int) bool {
     return true
 }
 
+func Pow(a int, n int) int {
+    if n == 0 {
+        return 1
+    }
+    if n % 2 == 0 {
+        return Pow(a * a, n / 2)
+    }
+    return a * Pow(a, n - 1)
+}
+
 func PrimeFactors(n int) []int {
     var primeFactors []int
     for i := 2; i * i <= n; i++ {
