@@ -11,6 +11,13 @@ func Divisors(n int) []int {
     return divisors
 }
 
+func Factorial(n int) int {
+    if n == 0 {
+        return 1
+    }
+    return n * Factorial(n - 1)
+}
+
 func IsPrime(n int) bool {
     if n < 2 {
         return false
