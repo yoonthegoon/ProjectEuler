@@ -17,7 +17,6 @@ func main() {
             continue
         }
         cache[a] = b
-
     }
     fmt.Println(utils.SumInts(amicablePairs))
 }
