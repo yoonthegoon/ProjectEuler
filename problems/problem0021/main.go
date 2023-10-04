@@ -11,11 +11,11 @@ func main() {
     cache := make(map[int]int)
     for a := 1; a < 10_000; a++ {
         b := d(a)
+        if a == b {continue}
         if cache[b] == a {
             amicablePairs = append(amicablePairs, a, b)
             continue
         }
-        if a == b {continue}
         cache[a] = b
 
     }
