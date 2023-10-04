@@ -24,10 +24,3 @@ func isCurious(n int) bool {
     return sum == n
 }
 
-func isPalindrome(n int) bool {
-    var reversed int
-    for i := n; i > 0; i /= 10 {
-        reversed = reversed * 10 + i % 10
-    }
-    return reversed == n
-}
