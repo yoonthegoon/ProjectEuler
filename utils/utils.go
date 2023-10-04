@@ -83,3 +83,15 @@ func SumInts(nums []int) int {
     return sum
 }
 
+func UniqueInts(nums []int) []int {
+    notUnique := make(map[int]bool)
+    result := []int{}
+    for _, n := range nums {
+        if notUnique[n] {
+            continue
+        }
+        result = append(result, n)
+        notUnique[n] = true
+    }
+    return result
+}

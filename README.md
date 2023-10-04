@@ -12,10 +12,11 @@ If you wish to verify any of my solutions, simple run
 go run problems/problem0001/main.go
 ```
 
-replacing 0001 with the number of the problem you'd like to run padding with 0s to width 4.
+replacing 0001 with the number of the problem you'd like to run padding with 0s
+to width 4.
 
 ## Incomplete problems
 
-* [5](/problems/problem0005/main.go) [problem](https://projecteuler.net/problem=5)
-* [21](/problems/problem0021/main.go) [problem](https://projecteuler.net/problem=21)
+* [5](/problems/problem0005/main.go)
+[problem](https://projecteuler.net/problem=5)
 
