@@ -21,12 +21,12 @@ func main() {
 func isCurious(n int) bool {
     var sum int
     for i := n; i > 0; i /= 10 {
-        sum += getFactorialCache(i % 10)
+        sum += getFactorial(i % 10)
     }
     return sum == n
 }
 
-func getFactorialCache(n int) int {
+func getFactorial(n int) int {
     factorial, ok := factorialsCache[n]
     if !ok {
         factorialsCache[n] = utils.Factorial(n)
