@@ -20,3 +20,6 @@ to width 4.
 * [5](/problems/problem0005/main.go)
 [problem](https://projecteuler.net/problem=5)
 
+* [30](/problems/problem0030/main.go)
+[problem](https://projecteuler.net/problem=30)
+
