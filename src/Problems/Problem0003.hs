@@ -10,9 +10,9 @@ solve n = largestPrimeFactor n limit
     limit = if even sr then sr - 1 else sr
 
 largestPrimeFactor :: Int -> Int -> Int
-largestPrimeFactor n limit  -- assumes n is not prime
+largestPrimeFactor n limit -- assumes n is not prime
   | n `mod` limit == 0 && isPrime limit = limit
-  | otherwise = largestPrimeFactor n (limit - 2)  -- assumes limit is odd
+  | otherwise = largestPrimeFactor n (limit - 2) -- assumes limit is odd
 
 isPrime :: Int -> Bool
 isPrime n
